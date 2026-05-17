@@ -4,21 +4,6 @@ export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
             <>
-                <meta charSet="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>VR-01 BioReactor Pro — Closed-Process Bioreactor Platform</title>
-                <meta
-                    name="description"
-                    content="VR-01 BioReactor Pro. 2L to 2000L scalable. Single-use closed system. The automated bioreactor platform built for cGMP gene and cell therapy manufacturing."
-                />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@700;800&family=DM+Sans:wght@300;400&display=swap"
-                    rel="stylesheet"
-                />
-                <link rel="stylesheet" href="css/templatemo-axis-industrial.css" />
-                <link rel="stylesheet" href="css/templatemo-axis-landing-page.css" />
                 {/* ====== HEADER ====== */}
                 <header className="header">
                     <div className="header__inner">
@@ -497,37 +482,6 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                {/* ====== ABOUT THIS TEMPLATE ====== */}
-                <section className="about">
-                    <div className="about__inner">
-                        <p className="about__text">
-                            This is a free HTML CSS template named <strong>Axis Industrial</strong>,
-                            designed and distributed by
-                            <a
-                                href="https://templatemo.com/tm-619-axis-industrial"
-                                target="_blank"
-                                rel="noopener"
-                                style={{ color: "var(--safety)" }}
-                            >
-                                TemplateMo
-                            </a>
-                            . This template includes three HTML pages — a corporate home page, this
-                            product landing page, and an AI platform dashboard — sharing one CSS and
-                            one JS file. No images required.
-                        </p>
-                        <div className="about__links">
-                            <a href="index.html" className="tag tag--filled">
-                                Home
-                            </a>
-                            <a href="landing-page.html" className="tag tag--safety">
-                                VR-01 Platform
-                            </a>
-                            <a href="the-observer.html" className="tag tag--filled">
-                                The Observer
-                            </a>
-                        </div>
-                    </div>
-                </section>
                 {/* ====== FOOTER ====== */}
                 <footer className="footer footer--compact">
                     <div className="footer__inner">

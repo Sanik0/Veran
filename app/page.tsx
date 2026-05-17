@@ -5,21 +5,6 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>VERAN BIOSYSTEMS — Precision at the Molecular Level</title>
-        <meta
-          name="description"
-          content="VERAN BIOSYSTEMS engineers automated bioprocessing infrastructure for gene therapy, cell therapy, and high-throughput discovery platforms."
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@700;800&family=DM+Sans:wght@300;400&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="stylesheet" href="css/templatemo-axis-industrial.css" />
-        <link rel="stylesheet" href="css/templatemo-axis-main-page.css" />
         {/* ====== HEADER ====== */}
         <header className="header">
           <div className="header__inner">

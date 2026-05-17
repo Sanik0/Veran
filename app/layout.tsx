@@ -30,7 +30,9 @@ export default function RootLayout({
     >
       <head>
         <link rel="stylesheet" href="/css/templatemo-axis-industrial.css" />
+        <link rel="stylesheet" href="/css/templatemo-axis-landing-page.css" />
         <link rel="stylesheet" href="/css/templatemo-axis-main-page.css" />
+        <link rel="stylesheet" href="/css/templatemo-axis-the-observer.css" />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
       <Script src="/js/templatemo-axis-script.js" strategy="lazyOnload" />
