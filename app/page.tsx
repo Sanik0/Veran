@@ -442,36 +442,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* ====== ABOUT THIS TEMPLATE ====== */}
-        <section className="about">
-          <div className="about__inner">
-            <p className="about__text">
-              This is a free HTML CSS template named <strong>Axis Industrial</strong>,
-              designed and distributed by
-              <a
-                href="https://templatemo.com/tm-619-axis-industrial"
-                target="_blank"
-                rel="noopener"
-                style={{ color: "var(--vr-cyan)" }}
-              >
-                TemplateMo
-              </a>
-              . Brand content replaced for the Veran Biosystems concept. Pure
-              HTML/CSS/JS — no frameworks.
-            </p>
-            <div className="about__links">
-              <a href="index.html" className="tag tag--safety">
-                Home
-              </a>
-              <a href="landing-page.html" className="tag tag--filled">
-                VR-01 Platform
-              </a>
-              <a href="the-observer.html" className="tag tag--filled">
-                The Observer
-              </a>
-            </div>
-          </div>
-        </section>
         {/* ====== FOOTER ====== */}
         <footer className="footer">
           <div className="footer__inner">
@@ -515,14 +485,14 @@ export default function Home() {
             <div className="footer__bottom">
               <span className="footer__copy">
                 © 2026 Veran Biosystems Inc. All rights reserved. &nbsp;|&nbsp;
-                Template by{" "}
+                Design by
+                R. Sanico
+                With{" "}
                 <a
                   href="https://templatemo.com/tm-619-axis-industrial"
                   target="_blank"
                   rel="nofollow noopener"
-                >
-                  TemplateMo
-                </a>
+                >templato</a>
               </span>
               <button
                 className="footer__back-top"
