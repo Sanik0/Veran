@@ -28,8 +28,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="stylesheet" href="/css/templatemo-axis-industrial.css" />
+        <link rel="stylesheet" href="/css/templatemo-axis-main-page.css" />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
-       <Script src="/js/templatemo-axis-script.js" strategy="lazyOnload" />
+      <Script src="/js/templatemo-axis-script.js" strategy="lazyOnload" />
     </html>
   );
 }
