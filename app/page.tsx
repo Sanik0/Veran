@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -91,7 +92,7 @@ export default function Home() {
               <a href="index.html" className="active">
                 Home
               </a>
-              <a href="landing-page.html">VR-01</a>
+              <Link href="/landing">VR-01</Link>
               <a href="the-observer.html">Observer</a>
               <a href="#specs">Platforms</a>
               <a href="#process">Protocol</a>
