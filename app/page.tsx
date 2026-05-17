@@ -9,8 +9,8 @@ export default function Home() {
         <header className="header">
           <div className="header__inner">
             <div className="header__left">
-              <a
-                href="index.html"
+              <Link
+                href="/"
                 className="header__logo"
                 aria-label="VERAN BIOSYSTEMS Home"
               >
@@ -69,18 +69,18 @@ export default function Home() {
                   </svg>
                 </span>
                 Veran Biosystems
-              </a>
+              </Link>
               <span className="header__sep" />
               <span className="header__product">Research Division</span>
             </div>
             <nav className="header__nav" id="headerNav">
-              <a href="index.html" className="active">
+              <Link href="/" className="active">
                 Home
-              </a>
+              </Link>
               <Link href="/landing">VR-01</Link>
-              <a href="the-observer.html">Observer</a>
-              <a href="#specs">Platforms</a>
-              <a href="#process">Protocol</a>
+              <Link href="/the-observer">Observer</Link>
+              <Link href="#specs">Platforms</Link>
+              <Link href="#process">Protocol</Link>
             </nav>
             <div className="header__right">
               <div className="header__status">

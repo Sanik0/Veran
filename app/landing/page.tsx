@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Home() {
     return (
         <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -8,8 +8,8 @@ export default function Home() {
                 <header className="header">
                     <div className="header__inner">
                         <div className="header__left">
-                            <a
-                                href="index.html"
+                            <Link
+                                href="/"
                                 className="header__logo"
                                 aria-label="Veran Biosystems Home"
                             >
@@ -68,18 +68,18 @@ export default function Home() {
                                     </svg>
                                 </span>
                                 Veran
-                            </a>
+                            </Link>
                             <span className="header__sep" />
                             <span className="header__product">BioReactor Pro / VR-01</span>
                         </div>
                         <nav className="header__nav" id="headerNav">
-                            <a href="index.html">Home</a>
-                            <a href="landing-page.html" className="active">
+                            <Link href="/">Home</Link>
+                            <Link href="/landing" className="active">
                                 VR-01
-                            </a>
-                            <a href="the-observer.html">Observer</a>
-                            <a href="#specs">Specs</a>
-                            <a href="#order">Order</a>
+                            </Link>
+                            <Link href="/the-observer">Observer</Link>
+                            <Link href="#specs">Specs</Link>
+                            <Link href="#order">Order</Link>
                         </nav>
                         <div className="header__right">
                             <div className="header__status">
