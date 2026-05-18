@@ -483,7 +483,7 @@ export default function Home() {
                     </div>
                 </div>
                 {/* ====== FOOTER ====== */}
-                <footer className="footer footer--compact">
+                 <footer className="footer w-full footer--compact">
                     <div className="footer__inner">
                         <div className="footer__left">
                             <span className="footer__logo font-display">

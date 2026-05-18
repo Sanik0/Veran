@@ -429,7 +429,7 @@ export default function Home() {
           </div>
         </section>
         {/* ====== FOOTER ====== */}
-        <footer className="footer">
+        <footer className="footer w-full">
           <div className="footer__inner">
             <div className="footer__top">
               <div className="footer__brand">
