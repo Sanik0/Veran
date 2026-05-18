@@ -497,14 +497,7 @@ export default function Home() {
                             </div>
                         </div>
                         <span className="footer__copy">
-                            © 2026 Veran Biosystems Inc. &nbsp;|&nbsp; Template by{" "}
-                            <a
-                                href="https://templatemo.com/tm-619-axis-industrial"
-                                target="_blank"
-                                rel="nofollow noopener"
-                            >
-                                TemplateMo
-                            </a>
+                            © 2026 Veran Biosystems Inc. &nbsp;|&nbsp; 
                         </span>
                     </div>
                 </footer>

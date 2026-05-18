@@ -471,14 +471,6 @@ export default function Home() {
             <div className="footer__bottom">
               <span className="footer__copy">
                 © 2026 Veran Biosystems Inc. All rights reserved. &nbsp;|&nbsp;
-                Design by
-                R. Sanico
-                With{" "}
-                <a
-                  href="https://templatemo.com/tm-619-axis-industrial"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >templato</a>
               </span>
               <button
                 className="footer__back-top"
